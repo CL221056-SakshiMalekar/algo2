@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int merge(int arr[], int temp[], int left, int mid, int right) {
-    int i = left; // Starting index for left subarray
-    int j = mid;  // Starting index for right subarray
-    int k = left; // Starting index to be sorted
+    int i = left; 
+    int j = mid;  
+    int k = left; 
     int inv_count = 0;
 
     while (i <= mid - 1 && j <= right) {
